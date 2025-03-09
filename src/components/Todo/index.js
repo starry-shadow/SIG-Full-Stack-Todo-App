@@ -1,4 +1,5 @@
 import React from "react"
+import AddTask from "./AddTask/index.js"
 function Todo(){
     return(
         <>
@@ -8,7 +9,8 @@ function Todo(){
                     <input type="search" class="search-input"></input>
                 </div>
                 <h2>Todo Tasks</h2>
-                <button class="addButton">+</button>
+                {/*<button class="addButton">+</button>*/}
+                <AddTask/>
             </div>
         </>
     );
